@@ -24,7 +24,7 @@
     </div>
     <footer>Copy right| OTOROU Sikirou</footer>
   </template>
-  
+
   <script setup>
   import { ref } from 'vue';
 import { useAuthStore } from '@/stores/auth'
@@ -46,7 +46,7 @@ import { useAuthStore } from '@/stores/auth'
   const chaussures = ref([
     {
       nom: 'Nike Air Max',
-      prix: 120,
+      prix: 125,
       image: image1,
     },
     {
